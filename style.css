@@ -1,0 +1,46 @@
+.table-container {
+  padding: 20px;
+  background-color: aquamarine;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(100px, 1fr));
+  background-color: lightblue;
+
+  padding: 0 10px;
+  gap: 10px;
+}
+
+.table h5 {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: lightgray;
+}
+
+.table h5:nth-child(1) {
+  background-color: white;
+}
+
+.table p:nth-child(odd) {
+  font-weight: 600;
+}
+
+.status {
+  background-color: grey;
+  padding: 5px;
+  text-align: center;
+  border-radius: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.in-progress {
+  background-color: orange;
+}
+.completed {
+  background-color: green;
+}
+.pending {
+  background-color: red;
+}
