@@ -41,3 +41,18 @@ Press **Enter**
    You can see your files, inside the current folder, under the **Changes** tab, below commit button.
 3. If you are sure about those files, write a commit message and press **Commit** button.
 4. Once done, you can see your commit in the **Graph** section of the Source Control.
+
+## Branches in Git
+
+1. Click on the brandh at the bottom left of the VS Code, saying either **Master** or **Main**.
+2. Check on the top center to create any new branch if you want.
+
+## Connection of Git to Github from VS Code
+
+1. Open the _Default browser_ to sign into your **Github** account.
+2. Click on either options from VS Code:
+   a. Click on **Publish Branch** button, which will open a prompt to sign into the Github and create a new Public/Private repository.
+   b. Click on the Profile icon, and click on **Backup and Sync Settings**.
+   i. It will open a menu at the top-center of the VS Code, to signin with **Github** or **Microsoft**.
+   You need to click on _Github_.
+   - Note that user.email and user.name is pre-configured.
